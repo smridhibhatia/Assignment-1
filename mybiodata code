@@ -1,0 +1,31 @@
+<html>
+   
+    <body>
+        <h1>My bio Data</h1>
+        <fieldset>
+            <legend>Personal Information</legend>
+            FirstName:<input placeholder="First Name"> LastName:<input placeholder="Last Name"></input><br><br>
+            Gender:Male<input type="radio"></input>Female<input type="radio"></input>Other<input type="radio"></input><br><br>
+            Date of Birth:<input type="date"></input><br><br>
+            E-Mail:<input placeholder="Enter Your Email"></input><br><br>
+            Phone<input placeholder="+91" maxlength="10"></input><br><br>
+            Height<input placeholder="Height in Feet"></input><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            School name:<input placeholder="School Name"></input><br><br>
+            Class:<input placeholder="Enter Class"></input><br><br>
+            Stream:<select><option value="stream">Stream</option>
+                <option value="stream">engineering</option>
+                <option value="stream">BBA</option>
+                <option value="stream">Medical</option>
+                <option value="stream">Commerce</option>
+            </select><br><br>
+            Marksheet:<input type="file"></input>
+
+
+        </fieldset><br><br>
+        <input type="submit"></input>
+    </body>
+</html>
+
